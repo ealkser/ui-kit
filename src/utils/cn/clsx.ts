@@ -33,6 +33,5 @@ export function clsx(...inputs: ClassValue[]): string {
     }
   }
 
-  // Объединяем все найденные классы через пробел
   return classes.join(" ");
 }
